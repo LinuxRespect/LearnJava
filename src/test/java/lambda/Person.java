@@ -6,8 +6,8 @@ import java.util.List;
 
 public class Person {
     public static List<Person> createRoster() {
-        List<Person> listPerson = Arrays.asList(new Person("Petr",LocalDate.of(2002,12,03),Sex.FEMALE,"asd"),
-                new Person("Leila",LocalDate.of(2003,12,05),Sex.MALE,"oleh"));
+        List<Person> listPerson = Arrays.asList(new Person("Petr",LocalDate.of(2002,12,03),Sex.FEMALE,"asd@gmail.com"),
+                new Person("Leila",LocalDate.of(2003,12,05),Sex.MALE,"oleh@gmail.com"));
         return listPerson;
     }
 

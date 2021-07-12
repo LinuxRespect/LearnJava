@@ -1,5 +1,6 @@
 package lambda;
 
+import java.sql.SQLOutput;
 import java.util.Arrays;
 import java.util.List;
 import java.util.function.Consumer;
@@ -11,6 +12,6 @@ public class ConsumerExample {
             System.out.println(n);
         };
         list.forEach(method);
-
+        list.forEach(l-> System.out.println(l));
     }
 }
