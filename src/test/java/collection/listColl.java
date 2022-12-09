@@ -53,7 +53,7 @@ public class listColl {
         System.out.println("List="+list);
         Collections.replaceAll(list,"listq","1234");
         System.out.println("List random ="+list);
-        Collections.sort(list);
+       // Collections.sort(list);
         System.out.println(list);
 
         Person person =new Person("Vasya",10);

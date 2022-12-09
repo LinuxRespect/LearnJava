@@ -37,14 +37,13 @@ public class ArrayListTest {
         ArrayList<String> listPlanet = new ArrayList<>(Arrays.asList(mercuriy, venera, mars, earth));
 
         List<String> upperListPlanet = listPlanet.stream()
-                .map(l -> {
-                    return l.toUpperCase();
-                })
+                .map(String::toUpperCase)
                 .sorted()
                 .collect(Collectors.toList());
 
      //   Collections.sort(upperListPlanet);
         System.out.println(upperListPlanet.toString());
+        upperListPlanet.stream().forEach(x -> System.out.print(x + ","));
 
         System.out.println("==============================");
 
