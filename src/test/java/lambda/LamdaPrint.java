@@ -1,5 +1,6 @@
 package lambda;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -14,6 +15,11 @@ public class LamdaPrint {
 
         };
         helperInterface.show();
+
+        System.out.println("=================");
+        List<String> arrList = Arrays.asList("1","2","3","4");
+        String res = arrList.stream().reduce((first,second)->second).get();
+        System.out.println("res= "+res);
 
 
     }
