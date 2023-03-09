@@ -10,6 +10,6 @@ public class ChildClass extends ParentClass {
     public static void main(String args[]) {
         ParentClass quest = new ChildClass ();   // 1
         quest.parentMethod(1);   // 2
-        //quest.childMethod(1);   // 3
+    //    quest.childMethod(1);   // 3
     }
 }

@@ -6,7 +6,7 @@ public class Student {
         faculty="TTT";
 
     }
-     static String faculty ="RFF";
+    static String faculty ="RFF";
 
     private int startYear=1990;
 

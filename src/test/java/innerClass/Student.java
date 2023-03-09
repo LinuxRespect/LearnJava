@@ -17,6 +17,7 @@ public class Student {
     public void operation(){
          name="Aloha";
          //city=""; -  не возможен доступ с внешнего класа к полям внутреннего
+        address.city = "asfdas";
     }
     public Address getAddress() {
         return address;
